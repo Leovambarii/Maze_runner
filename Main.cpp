@@ -16,7 +16,7 @@
 #include "MazeGenerator.h"
 #include "CameraController.h"
 
-// g++ -o osg Main.cpp MazeGenerator.cpp CameraController.cpp -losgViewer -losgDB -losg -losgGA -losgUtil -lOpenThreads -losgText
+// g++ -o osg Main.cpp MazeGenerator.cpp CameraController.cpp -losgViewer -losgDB -losg -losgGA -losgUtil -lOpenThreads
 int MAZE_SIZE = 25; // Default maze size
 #define MAX_MAZE 50 // Maximum maze size
 #define START_X 1 // Starting x-cordinate of player in the maze
